@@ -5,11 +5,13 @@
 
 body{
     display: flex;
+    
     justify-content: center;
     font-family: "Audiowide", sans-serif;
 }
 body p{
     font-size:x-large;
+    color: whitesmoke;
 }
 
 .calculator-outline{
@@ -17,6 +19,8 @@ body p{
     height: 100%;
     width: 400px;
     border-radius: 5%;
+    padding: 10px;
+    background-color: black;
 }
 .display{
     height: 100px;
@@ -27,18 +31,18 @@ body p{
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+    background-color: #8cbb6b;
 }
 .topDisplay , .bottomDisplay{
     height: 50%;
 }
-.renameLater{
+.clearingDisplay{
     height: 15%;
     display: flex;
     justify-content: space-between;
     margin: 20px 10px;
 }
 .delete , .clear{
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +60,24 @@ body p{
     padding: 20px;
     text-align: center;
     margin: 10px;
+    background-color: darkgray;
+}
+#equals ,.clear{
+    background-color: red;
+    color: whitesmoke;
+}
+#equals:hover ,.clear:hover{
+    background-color: darkred;
+}
+.delete{
+    background-color: darkgray;
+    color: whitesmoke;
+}
+.key:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.delete:hover{
+    cursor: pointer;
+    background-color: gray;
 }
