@@ -9,7 +9,7 @@ body{
     justify-content: center;
     font-family: "Audiowide", sans-serif;
 }
-body p{
+body button{
     font-size:x-large;
     color: whitesmoke;
 }
@@ -54,7 +54,7 @@ body p{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.key{
+.key, .operator, .equals{
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
@@ -73,11 +73,7 @@ body p{
     background-color: darkgray;
     color: whitesmoke;
 }
-.key:hover{
-    cursor: pointer;
-    background-color: gray;
-}
-.delete:hover{
+.delete:hover, .operator:hover, .equals:hover, .key:hover{
     cursor: pointer;
     background-color: gray;
 }
