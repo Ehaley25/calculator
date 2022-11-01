@@ -42,7 +42,7 @@ body button{
     justify-content: space-between;
     margin: 20px 10px;
 }
-.delete , .clear{
+#delete , #clear{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,18 +62,19 @@ body button{
     margin: 10px;
     background-color: darkgray;
 }
-#equals ,.clear{
+.equals ,.clear{
     background-color: red;
     color: whitesmoke;
 }
-#equals:hover ,.clear:hover{
+.equals:hover ,.clear:hover{
     background-color: darkred;
+    cursor: pointer;
 }
 .delete{
     background-color: darkgray;
     color: whitesmoke;
 }
-.delete:hover, .operator:hover, .equals:hover, .key:hover{
+.delete:hover, .operator:hover, .key:hover{
     cursor: pointer;
     background-color: gray;
 }
