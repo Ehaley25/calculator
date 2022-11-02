@@ -91,3 +91,9 @@ footer{
 footer img{
     height: 25px;
 }
+@media only screen and (max-height: 730px) , (max-width:600px ) {
+    footer{
+        display: none !important;
+    }
+}
+/* footer was overlapping in mobile */
